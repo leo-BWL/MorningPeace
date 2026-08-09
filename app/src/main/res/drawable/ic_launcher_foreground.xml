@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle with gradient feel -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+    <!-- Moon crescent -->
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M54,28c-14.36,0 -26,11.64 -26,26s11.64,26 26,26c4.42,0 8.58,-1.1 12.22,-3.05C58.74,73.18 52,64.36 52,54s6.74,-19.18 14.22,-22.95C62.58,29.1 58.42,28 54,28z" />
+    <!-- Sun rays (small star) -->
+    <path
+        android:fillColor="#FF8C42"
+        android:pathData="M72,38l2,5l5,2l-5,2l-2,5l-2,-5l-5,-2l5,-2z" />
+</vector>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Morning Peace</string>
+
+    <string name="greeting_morning">Good Morning ☀️</string>
+    <string name="greeting_afternoon">Good Afternoon</string>
+    <string name="greeting_evening">Good Evening 🌙</string>
+    <string name="greeting_night">Good Night ✨</string>
+
+    <!-- Morning Block -->
+    <string name="morning_block_title">Morning Block</string>
+    <string name="morning_block_desc_auto">Auto-detects sleep and blocks on wake</string>
+    <string name="sleep_threshold">Sleep Detection</string>
+    <string name="sleep_threshold_value">%1$d hours</string>
+    <string name="block_duration">Block Duration</string>
+    <string name="custom_time_label">Custom:</string>
+
+    <!-- Focus Lock -->
+    <string name="focus_lock_title">Focus Lock</string>
+    <string name="focus_lock_desc">Lock your phone right now</string>
+    <string name="start_focus">Start Focus Session</string>
+    <string name="duration_15m">15 min</string>
+    <string name="duration_30m">30 min</string>
+    <string name="duration_1h">1 hour</string>
+    <string name="duration_2h">2 hours</string>
+
+    <!-- Whitelist -->
+    <string name="whitelisted_apps">Allowed Apps</string>
+    <string name="whitelist_desc">These apps can be used during blocks</string>
+    <string name="app_picker_title">Select Allowed Apps</string>
+    <string name="app_picker_done">Done</string>
+    <string name="apps_selected">%1$d apps selected</string>
+    <string name="selected_header">Selected (%1$d)</string>
+
+    <!-- Lock Screen -->
+    <string name="lock_title_morning">Time to Start Your Day 🌅</string>
+    <string name="lock_title_focus">Peace Time 🕊️</string>
+    <string name="lock_subtitle_morning">Put the phone down and enjoy your morning</string>
+    <string name="lock_subtitle_focus">Breathe. Relax. The phone can wait.</string>
+    <string name="lock_allowed_apps">You can use:</string>
+
+    <!-- Status -->
+    <string name="service_enabled">Active — Monitoring apps</string>
+    <string name="service_disabled">Not active — Tap to enable</string>
+    <string name="enable_service">Enable Service</string>
+    <string name="status_morning_block">Morning Block Active</string>
+    <string name="status_focus_lock">Peace Time Active</string>
+    <string name="blocker_service_title">Blocker Service</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Morning Peace</string>
+    <string name="notification_channel_desc">Block status and reminders</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">Morning Peace uses this service to temporarily block other apps during your morning routine or focus sessions. It also monitors sleep patterns to auto-activate the morning block.</string>
+
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+</resources>
