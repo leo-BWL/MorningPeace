@@ -5,7 +5,8 @@
 **Reclaim your mornings and find deep focus without digital distractions.**
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](#)
-[![Android](https://img.shields.io/badge/Android-7.0%2B%20(API%2024%2B)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#)
+[![Android](https://img.shields.io/badge/Android-8.0%2B%20(API%2026%2B)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#)
+[![Download APK](https://img.shields.io/badge/Download-Latest%20APK-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://github.com/leo-BWL/MorningPeace/releases/latest)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0%2B-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Target SDK](https://img.shields.io/badge/Target%20SDK-34-blue?style=for-the-badge)](#)
@@ -20,6 +21,14 @@
 </p>
 
 </div>
+
+---
+
+## 📥 Download
+
+Grab the latest APK from [**GitHub Releases**](https://github.com/leo-BWL/MorningPeace/releases/latest) and install it directly on your Android device (Android 8.0+).
+
+> **Note:** You may need to enable "Install from unknown sources" in your device settings.
 
 ---
 
@@ -58,10 +67,29 @@ flowchart LR
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+<table>
+<tr>
+<td align="center"><b>Dashboard</b></td>
+<td align="center"><b>Lock Screen</b></td>
+<td align="center"><b>App Picker</b></td>
+</tr>
+<tr>
+<td><em>Coming soon</em></td>
+<td><em>Coming soon</em></td>
+<td><em>Coming soon</em></td>
+</tr>
+</table>
+</div>
+
+---
+
 ## 🛠️ Architecture & Tech Stack
 
 - **Language**: [Kotlin](https://kotlinlang.org/)
-- **Min SDK**: API 24 (Android 7.0 Nougat)
+- **Min SDK**: API 26 (Android 8.0 Oreo)
 - **Target SDK / Compile SDK**: API 34 (Android 14)
 - **UI & Layout**: ViewBinding, Material 3 Design Components, ConstraintLayout, Dynamic Light/Dark support
 - **System Integrations**:
