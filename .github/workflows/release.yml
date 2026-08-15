@@ -1,0 +1,61 @@
+name: Release APK
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build & Release APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Run Unit Tests
+        run: ./gradlew testDebugUnitTest --no-daemon
+
+      - name: Build Release APK
+        run: ./gradlew assembleRelease --no-daemon
+
+      - name: Rename APK
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          cp app/build/outputs/apk/release/app-release-unsigned.apk MorningPeace-${VERSION}.apk
+          cp app/build/outputs/apk/release/app-release-unsigned.apk MorningPeace.apk
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "Morning Peace ${{ github.ref_name }}"
+          body: |
+            ## ☀️ Morning Peace ${{ github.ref_name }}
+
+            ### Installation
+            1. Download `MorningPeace-*.apk` below
+            2. Transfer to your Android device (8.0+)
+            3. Open the file and tap **Install**
+            4. Enable "Install from unknown sources" if prompted
+
+            See [CHANGELOG.md](https://github.com/leo-BWL/MorningPeace/blob/main/CHANGELOG.md) for details.
+          files: MorningPeace-*.apk
+          draft: false
+          prerelease: false
+          generate_release_notes: true

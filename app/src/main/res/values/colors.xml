@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Calming Indigo/Lavender Primary -->
+    <color name="primary">#FF6C63FF</color>
+    <color name="primary_dark">#FF5046E5</color>
+    <color name="primary_light">#FF8B83FF</color>
+    <color name="primary_variant">#FF4338CA</color>
+
+    <!-- Warm Sunrise Accent -->
+    <color name="accent">#FFFF8C42</color>
+    <color name="accent_light">#FFFFA66B</color>
+    <color name="accent_dark">#FFE06B20</color>
+
+    <!-- Soft Gold -->
+    <color name="gold">#FFFFD93D</color>
+    <color name="gold_dark">#FFF5C518</color>
+
+    <!-- Background (Deep Navy Dark) -->
+    <color name="background">#FF0A0E1A</color>
+    <color name="background_secondary">#FF0F1528</color>
+    <color name="surface">#FF141929</color>
+    <color name="surface_light">#FF1C2237</color>
+    <color name="surface_elevated">#FF252C45</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#CCE0E0E0</color>
+    <color name="text_tertiary">#99AAAAAA</color>
+    <color name="text_on_primary">#FFFFFFFF</color>
+    <color name="text_on_accent">#FF1A1A1A</color>
+
+    <!-- Status Colors -->
+    <color name="status_active">#FF4CAF50</color>
+    <color name="status_blocking">#FFEF5350</color>
+    <color name="status_inactive">#FF757575</color>
+    <color name="status_warning">#FFFFC107</color>
+
+    <!-- Morning Gradient -->
+    <color name="morning_start">#FF1A0533</color>
+    <color name="morning_mid">#FF2D1B69</color>
+    <color name="morning_end">#FF6C63FF</color>
+
+    <!-- Focus Gradient -->
+    <color name="focus_start">#FF0D2137</color>
+    <color name="focus_end">#FF1A3A5C</color>
+
+    <!-- Overlay -->
+    <color name="overlay_dark">#E6000000</color>
+    <color name="scrim">#80000000</color>
+
+    <!-- Misc -->
+    <color name="divider">#22FFFFFF</color>
+    <color name="ripple">#33FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Lock Screen Gradient -->
+    <color name="lock_gradient_start">#FF0A0020</color>
+    <color name="lock_gradient_center">#FF1A0A40</color>
+    <color name="lock_gradient_end">#FF2D1B69</color>
+</resources>
